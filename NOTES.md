@@ -570,3 +570,5 @@ Settings > Secrets:
 ANTHROPIC_API_KEY="..."
 AWS_LAMBDA_URL="https://<id>.ap-southeast-2.amazonaws.com"
 ```
+
+ENV not set in the streamlit dashboard to let it route to aws lambda in `config.py`.
